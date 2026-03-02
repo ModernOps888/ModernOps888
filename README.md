@@ -378,6 +378,57 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 
 ---
 
+### ⚡ Consulting & Services
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**🔒 AI Security Audits**
+Threat modelling, prompt injection
+defence, model supply-chain review
+
+*from £350*
+
+</td>
+<td align="center" width="25%">
+
+**🏗️ Architecture Advisory**
+System design for autonomous AI,
+multi-agent pipelines, Rust toolchains
+
+*£400 / hr*
+
+</td>
+<td align="center" width="25%">
+
+**⚡ Custom Toolchain Builds**
+Compilers, JIT engines, FFI bridges,
+SIMD-accelerated libraries
+
+*Scoped quote*
+
+</td>
+<td align="center" width="25%">
+
+**🛡️ M365 & Zero Trust**
+Entra ID, Intune, Defender, Purview,
+Sentinel — full stack hardening
+
+*Scoped quote*
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![Book a Session](https://img.shields.io/badge/Book_a_Consulting_Session_→-infinitytechstack.uk/consulting-22c55e?style=for-the-badge)](https://infinitytechstack.uk/consulting)
+
+</div>
+
+---
+
 <div align="center">
 
 [![Tech Stack](https://img.shields.io/badge/Full_Interactive_Tech_Stack_→-infinitytechstack.uk/techstack-a855f7?style=for-the-badge)](https://infinitytechstack.uk/techstack)
