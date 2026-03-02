@@ -4,9 +4,9 @@
 
 ### AI Systems Architect · Language Designer · Full-Stack Engineer
 
-[![Website](https://img.shields.io/badge/infinity--techstack.uk-000?style=for-the-badge&logo=vercel&logoColor=white)](https://infinity-techstack.uk)
+[![Tech Stack](https://img.shields.io/badge/∞_Infinity_Tech_Stack-000?style=for-the-badge&logo=vercel&logoColor=white)](https://infinitytechstack.uk/techstack)
 [![Vitalis](https://img.shields.io/badge/Vitalis_Lang-Self_Evolving-a855f7?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/vitalis)
-[![GitHub](https://img.shields.io/badge/ModernOps888-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ModernOps888)
+[![Website](https://img.shields.io/badge/infinitytechstack.uk-0d1117?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://infinity-techstack.uk)
 
 </div>
 
@@ -14,11 +14,210 @@
 
 ### 🧬 What I Build
 
-I design and build **autonomous AI systems** that evolve their own code. My flagship project is **[Vitalis](https://github.com/ModernOps888/vitalis)** — a programming language written from scratch in Rust that compiles to native machine code via Cranelift JIT, with first-class support for self-modifying programs, genetic code evolution, and real-time fitness tracking.
+I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to swarm intelligence to frontend. Two flagship products, **132,000+ lines of code**, three languages, zero shortcuts.
 
-> *35,700+ lines of Rust · 708 tests · 200+ stdlib functions · 41 source modules · Zero dependencies on LLVM*
+<div align="center">
 
-I also architect **Infinity** — a multi-agent AI platform with swarm intelligence, episodic memory, vector search (FAISS + ChromaDB), rate limiting, code analysis, and a self-evolution engine — all powered by Vitalis's native hot-path operations.
+| | Project | Stack | LOC | Description |
+|---|---------|-------|-----|-------------|
+| 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT | 24,700+ | Custom self-evolving compiled language |
+| 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Python · Next.js · Rust FFI | 110,000+ | Autonomous multi-agent AI platform |
+
+</div>
+
+> *Full interactive breakdown → [infinitytechstack.uk/techstack](https://infinitytechstack.uk/techstack)*
+
+---
+
+## 🏗 Flagship Software
+
+### ∞ Infinity — Autonomous Self-Evolving AI System
+
+A production-grade autonomous AI platform that **writes, tests, and evolves its own code** in continuous 3-minute cycles. Governed by Asimov's Three Laws, powered by a swarm of LLM agents, backed by a custom JIT-compiled language.
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**🧠 72 AI Modules**
+Inference, reasoning, memory,
+swarm, voice, code analysis,
+consciousness substrate
+
+</td>
+<td align="center" width="25%">
+
+**🐝 4-Agent Swarm**
+Parallel consensus with
+Pareto-optimal selection,
+Boltzmann sampling, native
+vote tallying via Rust FFI
+
+</td>
+<td align="center" width="25%">
+
+**🧬 Self-Evolution**
+LLM → Guardian → Type-Check
+→ Sandbox → Fitness → Git
+Autonomous code improvement
+every 3 minutes
+
+</td>
+<td align="center" width="25%">
+
+**🛡️ Asimov Enforced**
+Three Laws governance,
+capability-based sandbox,
+kernel sentinel (SHA-256),
+tamper-proof enforcement
+
+</td>
+</tr>
+</table>
+
+#### System Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  FRONTEND  │  Next.js 15 · React 19 · WebGL Shaders · Cyberpunk HUD   │
+│  :3002     │  25 routes · GPU-accelerated · SSE real-time streaming    │
+├─────────────────────────────────────────────────────────────────────────┤
+│  API       │  FastAPI · Uvicorn · REST + SSE · /health /status /chat   │
+│  :8002     │  /evolution /roadmap /api/agents · Structured JSON logs   │
+├─────────────────────────────────────────────────────────────────────────┤
+│  KERNEL    │  Boot · Guardian · Sandbox · Evolution · Watchdog · Forge │
+│            │  Hot-swap modules · Asimov enforced · Config (Pydantic)   │
+├─────────────────────────────────────────────────────────────────────────┤
+│  CORTEX    │  72 modules: inference, swarm (4x), reasoning, episodic  │
+│            │  memory, FAISS, ChromaDB, voice, code analysis, plugins  │
+├─────────────────────────────────────────────────────────────────────────┤
+│  VITALIS   │  Rust JIT engine · 405 FFI exports · SIMD F64×4 (AVX2)  │
+│  ENGINE    │  44 native hotpath ops · ctypes bridge · vitalis.dll     │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Core Modules
+
+<table>
+<tr>
+<td width="50%">
+
+**Kernel Layer** — *System Core*
+- `boot.py` — 2,200+ LOC orchestrator, loads 72 modules
+- `guardian.py` — Asimov's Laws pattern-based enforcement
+- `sandbox.py` — Capability-restricted jail (no FS/net/proc)
+- `evolution.py` — Git-based code evolution + Vitalis backend
+- `algorithm_forge.py` — Algorithm generation & fitness eval
+- `coevolution.py` — Python ↔ Vitalis runtime bridge
+- `kernel_sentinel.rs` — 957 LOC native tamper detection
+
+</td>
+<td width="50%">
+
+**Cortex AI** — *Intelligence Layer*
+- `inference_pkg/` — Unified LLM backend (vLLM, TGI, Ollama)
+- `swarm_pkg/` — 4-agent parallel consensus engine
+- `episodic/` — Time-stamped experience memory
+- `faiss_pkg/` — Vector similarity search + caching
+- `consciousness/` — Self-awareness substrate
+- `voice/` — Voice processing pipeline
+- `rate_limiter.py` — Sliding window + token bucket (Rust)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Memory & Persistence**
+- ChromaDB vector store for semantic retrieval
+- FAISS index for high-speed similarity search
+- Episodic memory for experience-based learning
+- Mind journal — 335 goals, persistent JSON state
+- Three-layer memory (working, short-term, long-term)
+
+</td>
+<td width="50%">
+
+**Evolution Engine**
+- Claude Sonnet 4.6 proposes code improvements
+- Guardian reviews for Three Laws compliance
+- Vitalis compiler validates type safety
+- Sandbox executes in capability-restricted jail
+- Fitness scoring via code quality metrics
+- Auto-rollback if fitness degrades
+- Git commit with generation tracking
+
+</td>
+</tr>
+</table>
+
+#### Tech Breakdown
+
+```
+Python Backend      95,300 LOC    76%    344 files · 72 modules
+Rust (Vitalis)      24,700 LOC    19%     31 files · 405 FFI exports
+TypeScript Frontend 14,300 LOC     5%     51 files · 25 routes
+────────────────────────────────────────────────────────────────
+Total              132,000+ LOC          467 files · 3 languages
+```
+
+---
+
+### 🧬 Vitalis — The Self-Evolving Programming Language
+
+<a href="https://github.com/ModernOps888/vitalis">
+<img src="https://img.shields.io/badge/GitHub-ModernOps888/vitalis-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="Vitalis Repo" />
+</a>
+
+A compiled language built from scratch in **Rust** that produces native x86-64 machine code at runtime via **Cranelift JIT**. Programs can evolve themselves through genetic mutation, fitness scoring, and generational tracking.
+
+```
+Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimize → Cranelift JIT → Native x86-64
+                                                                                ↕
+                                                                     C FFI bridge (405 exports)
+                                                                                ↕
+                                                                     Python interop (vitalis.py)
+```
+
+<table>
+<tr>
+<td width="50%">
+
+**Compiler Pipeline**
+- **Lexer** — Logos-based zero-copy tokenizer, 127 token variants
+- **Parser** — Recursive-descent + Pratt, typed AST with 27 nodes
+- **Type Checker** — Two-pass with scope chains
+- **IR** — SSA-form with ~30 instruction variants
+- **Optimizer** — Constant folding, DCE, strength reduction, predictive JIT, delta debugger, inlining oracle
+- **Codegen** — Cranelift 0.116 JIT → native x86-64
+
+</td>
+<td width="50%">
+
+**Runtime Features**
+- **Evolution Engine** — `@evolvable` functions, fitness tracking, quantum UCB, Pareto fronts, auto-rollback
+- **SIMD** — AVX2 F64×4 vectorization (15 ops, ~4× throughput)
+- **Consciousness** — 1,125 LOC self-awareness substrate
+- **Kernel Sentinel** — SHA-256 integrity, tamper detection
+- **Meta-Evolution** — Thompson sampling over strategies
+- **405 FFI exports** across 17 source files
+
+</td>
+</tr>
+</table>
+
+**14 Native Algorithm Libraries** — all compiled Rust, exposed via FFI:
+
+![String](https://img.shields.io/badge/String-Levenshtein·Jaro_Winkler·Hamming-2d6a4f?style=flat-square)
+![Graph](https://img.shields.io/badge/Graph-PageRank·Toposort·DFS-264653?style=flat-square)
+![Crypto](https://img.shields.io/badge/Crypto-SHA256·HMAC·SQLi·XSS-9b2226?style=flat-square)
+![Signal](https://img.shields.io/badge/Signal-FFT·SMA·EMA·SIMD-003049?style=flat-square)
+![ML](https://img.shields.io/badge/ML-Softmax·CrossEntropy·Sigmoid·ReLU-7209b7?style=flat-square)
+![Quantum](https://img.shields.io/badge/Quantum-Annealing·UCB·CMA_ES-3a0ca3?style=flat-square)
+![Analytics](https://img.shields.io/badge/Analytics-Elo·ZScore·CodeQuality-386641?style=flat-square)
+![Science](https://img.shields.io/badge/Science-Compression·NumericalMethods-1d3557?style=flat-square)
+
+> **24,700+ LOC** · **31 modules** · **470+ tests** · **98 stdlib builtins** · **44 native hotpath ops** · **Zero LLVM dependency**
 
 ---
 
@@ -138,6 +337,7 @@ I also architect **Infinity** — a multi-agent AI platform with swarm intellige
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
+![Cranelift](https://img.shields.io/badge/Cranelift_0.116-b7410e?style=flat-square&logo=rust&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
@@ -146,42 +346,12 @@ I also architect **Infinity** — a multi-agent AI platform with swarm intellige
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 </p>
-
----
-
-### 🏗 Featured Project
-
-<table>
-<tr>
-<td width="100%">
-
-#### [🧬 Vitalis — The Self-Evolving Programming Language](https://github.com/ModernOps888/vitalis)
-
-A compiled language built from scratch in **Rust** that produces native x86-64 machine code at runtime via **Cranelift JIT**. Programs can evolve themselves through genetic mutation, fitness scoring, and generational tracking.
-
-```
-Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Cranelift JIT → Native Code
-                                                                    ↕
-                                                           Python FFI (ctypes)
-```
-
-**Highlights:**
-- 🔥 **35,700+ LOC** of hand-written Rust across 41 modules
-- ✅ **708 tests** passing, zero failures
-- 📦 **200+ stdlib** functions (math, strings, collections, regex, networking, crypto, file I/O)
-- 🧬 **Evolution engine** with `@evolvable` functions, fitness tracking, and auto-rollback
-- 🔢 **Domain libraries**: ML (neural nets), quantum simulation, graph algorithms, bioinformatics, signal processing, cryptography, numerical methods
-- ⚡ **Hot-path bypass**: Performance-critical ops call native Rust directly, zero JIT overhead
-- 🐍 **Full Python FFI** via `vitalis.dll` + ctypes wrapper
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -204,11 +374,16 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Cranel
 - 🏗 Architecting production AI pipelines with self-evolution capabilities
 - 🔐 M365 administration, Entra ID, and zero-trust security architecture
 - 🌐 Deploying AI-powered dashboards and real-time monitoring systems
+- ⚡ SIMD-accelerated algorithm libraries (AVX2 F64×4) for hot-path performance
 
 ---
 
 <div align="center">
 
+[![Tech Stack](https://img.shields.io/badge/Full_Interactive_Tech_Stack_→-infinitytechstack.uk/techstack-a855f7?style=for-the-badge)](https://infinitytechstack.uk/techstack)
+
 *Building systems that build themselves.*
+
+**132,000+ LOC · 467 Files · 3 Languages · 72 AI Modules · 470+ Tests**
 
 </div>
