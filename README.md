@@ -4,9 +4,8 @@
 
 ### AI Systems Architect · Language Designer · Full-Stack Engineer
 
-[![Tech Stack](https://img.shields.io/badge/∞_Infinity_Tech_Stack-000?style=for-the-badge&logo=vercel&logoColor=white)](https://infinitytechstack.uk/techstack)
 [![Vitalis](https://img.shields.io/badge/Vitalis_Lang-Self_Evolving-a855f7?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/vitalis)
-[![Website](https://img.shields.io/badge/infinitytechstack.uk-0d1117?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://infinitytechstack.uk)
+[![Consulting](https://img.shields.io/badge/Book_Consulting-22c55e?style=for-the-badge&logo=calendar&logoColor=white)](https://infinitytechstack.uk/consulting)
 
 </div>
 
@@ -352,18 +351,6 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 </p>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ModernOps888&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ModernOps888&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
-</div>
 
 ---
 
