@@ -6,7 +6,7 @@
 
 [![Tech Stack](https://img.shields.io/badge/∞_Infinity_Tech_Stack-000?style=for-the-badge&logo=vercel&logoColor=white)](https://infinitytechstack.uk/techstack)
 [![Vitalis](https://img.shields.io/badge/Vitalis_Lang-Self_Evolving-a855f7?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/vitalis)
-[![Website](https://img.shields.io/badge/infinitytechstack.uk-0d1117?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://infinity-techstack.uk)
+[![Website](https://img.shields.io/badge/infinitytechstack.uk-0d1117?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://infinitytechstack.uk)
 
 </div>
 
