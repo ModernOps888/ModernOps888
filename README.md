@@ -13,13 +13,14 @@
 
 ### 🧬 What I Build
 
-I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to swarm intelligence to frontend. Two flagship products, **132,000+ lines of code**, three languages, zero shortcuts.
+I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Three flagship products, **145,000+ lines of code**, four languages, zero shortcuts.
 
 <div align="center">
 
 | | Project | Stack | LOC | Description |
 |---|---------|-------|-----|-------------|
-| 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT | 24,700+ | Custom self-evolving compiled language |
+| 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT + AOT | 41,772 | Custom self-evolving compiled language — 58 modules, 1,043 tests |
+| ⚡ | **[Nova](https://infinitytechstack.uk/nova)** | Rust · CUDA | 12,119 | From-scratch LLM training engine — custom tensor + autograd |
 | 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Python · Next.js · Rust FFI | 110,000+ | Autonomous multi-agent AI platform |
 
 </div>
@@ -153,11 +154,12 @@ tamper-proof enforcement
 #### Tech Breakdown
 
 ```
-Python Backend      95,300 LOC    76%    344 files · 72 modules
-Rust (Vitalis)      24,700 LOC    19%     31 files · 405 FFI exports
-TypeScript Frontend 14,300 LOC     5%     51 files · 25 routes
+Python Backend      95,300 LOC    66%    344 files · 72 modules
+Rust (Vitalis)      41,772 LOC    29%     58 files · 1,043 tests
+Rust (Nova)         12,119 LOC     5%     57 files · CUDA GPU
+TypeScript Frontend 14,300 LOC          51 files · 25 routes
 ────────────────────────────────────────────────────────────────
-Total              132,000+ LOC          467 files · 3 languages
+Total              163,000+ LOC          510 files · 4 languages
 ```
 
 ---
@@ -168,14 +170,14 @@ Total              132,000+ LOC          467 files · 3 languages
 <img src="https://img.shields.io/badge/GitHub-ModernOps888/vitalis-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="Vitalis Repo" />
 </a>
 
-A compiled language built from scratch in **Rust** that produces native x86-64 machine code at runtime via **Cranelift JIT**. Programs can evolve themselves through genetic mutation, fitness scoring, and generational tracking.
+A compiled language built from scratch in **Rust** that produces native machine code via **Cranelift JIT and AOT**. Programs can evolve themselves through genetic mutation, fitness scoring, and generational tracking. Cross-compiles to x86-64, AArch64 (ARM64), and RISC-V 64.
 
 ```
-Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimize → Cranelift JIT → Native x86-64
-                                                                                ↕
-                                                                     C FFI bridge (405 exports)
-                                                                                ↕
-                                                                     Python interop (vitalis.py)
+Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimize → Cranelift → Native x86-64 / AArch64 / RISC-V
+                                                                                     ↕            ↕
+                                                                          C FFI bridge    AOT standalone binary
+                                                                                     ↕
+                                                                          Python interop (vitalis.py)
 ```
 
 <table>
@@ -185,10 +187,10 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 **Compiler Pipeline**
 - **Lexer** — Logos-based zero-copy tokenizer, 127 token variants
 - **Parser** — Recursive-descent + Pratt, typed AST with 27 nodes
-- **Type Checker** — Two-pass with scope chains
+- **Type Checker** — Two-pass with scope chains, lifetime analysis
 - **IR** — SSA-form with ~30 instruction variants
 - **Optimizer** — Constant folding, DCE, strength reduction, predictive JIT, delta debugger, inlining oracle
-- **Codegen** — Cranelift 0.116 JIT → native x86-64
+- **Codegen** — Cranelift 0.116 JIT + AOT → native x86-64, AArch64, RISC-V
 
 </td>
 <td width="50%">
@@ -196,8 +198,11 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 **Runtime Features**
 - **Evolution Engine** — `@evolvable` functions, fitness tracking, quantum UCB, Pareto fronts, auto-rollback
 - **SIMD** — AVX2 F64×4 vectorization (15 ops, ~4× throughput)
-- **Consciousness** — 1,125 LOC self-awareness substrate
-- **Kernel Sentinel** — SHA-256 integrity, tamper detection
+- **Effect System** — Static capability types, algebraic effects
+- **Lifetime Analysis** — Region-based borrow scopes, outlives constraints
+- **Hot Reload** — File watching, incremental recompilation
+- **AOT + Cross-Compile** — Standalone executables for x86-64, ARM64, RISC-V
+- **Bootstrap Pipeline** — Stage 0/1/2 self-hosted compiler infrastructure
 - **Meta-Evolution** — Thompson sampling over strategies
 - **405 FFI exports** across 17 source files
 
@@ -216,7 +221,7 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 ![Analytics](https://img.shields.io/badge/Analytics-Elo·ZScore·CodeQuality-386641?style=flat-square)
 ![Science](https://img.shields.io/badge/Science-Compression·NumericalMethods-1d3557?style=flat-square)
 
-> **24,700+ LOC** · **31 modules** · **470+ tests** · **98 stdlib builtins** · **44 native hotpath ops** · **Zero LLVM dependency**
+> **41,772 LOC** · **58 modules** · **1,043 tests** · **200+ stdlib builtins** · **44 native hotpath ops** · **AOT + JIT** · **Zero LLVM dependency**
 
 ---
 
@@ -356,12 +361,13 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 
 ### 🎯 Current Focus
 
-- 🧬 Expanding Vitalis with traits, generics, full async runtime, and a package manager
+- 🧬 Expanding Vitalis with AOT compilation, cross-compilation (ARM64, RISC-V), effect system, and lifetime analysis
+- ⚡ Training Nova LLM from scratch in Rust with custom tensor engine and CUDA acceleration
 - 🤖 Building autonomous multi-agent swarm systems with Pareto-optimal consensus
 - 🏗 Architecting production AI pipelines with self-evolution capabilities
 - 🔐 M365 administration, Entra ID, and zero-trust security architecture
 - 🌐 Deploying AI-powered dashboards and real-time monitoring systems
-- ⚡ SIMD-accelerated algorithm libraries (AVX2 F64×4) for hot-path performance
+- 🎯 Self-hosted compiler bootstrap and cross-platform native binary generation
 
 ---
 
@@ -422,6 +428,6 @@ Sentinel — full stack hardening
 
 *Building systems that build themselves.*
 
-**132,000+ LOC · 467 Files · 3 Languages · 72 AI Modules · 470+ Tests**
+**163,000+ LOC · 510 Files · 4 Languages · 72 AI Modules · 1,043 Compiler Tests**
 
 </div>
