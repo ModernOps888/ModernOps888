@@ -5,6 +5,7 @@
 ### AI Systems Architect · Language Designer · Full-Stack Engineer
 
 [![Vitalis](https://img.shields.io/badge/Vitalis_Lang-Self_Evolving-a855f7?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/vitalis)
+[![Nova LLM](https://img.shields.io/badge/Nova_LLM-From_Scratch-f97316?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/nova)
 [![Consulting](https://img.shields.io/badge/Book_Consulting-22c55e?style=for-the-badge&logo=calendar&logoColor=white)](https://infinitytechstack.uk/consulting)
 
 </div>
@@ -13,14 +14,14 @@
 
 ### 🧬 What I Build
 
-I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Three flagship products, **145,000+ lines of code**, four languages, zero shortcuts.
+I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Three flagship products, **165,000+ lines of code**, four languages, zero shortcuts.
 
 <div align="center">
 
 | | Project | Stack | LOC | Description |
 |---|---------|-------|-----|-------------|
 | 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT + AOT | 41,772 | Custom self-evolving compiled language — 58 modules, 1,043 tests |
-| ⚡ | **[Nova](https://infinitytechstack.uk/nova)** | Rust · CUDA | 12,119 | From-scratch LLM training engine — custom tensor + autograd |
+| ⚡ | **[Nova](https://github.com/ModernOps888/nova)** | Rust · CUDA · cuBLAS | 12,292 | From-scratch LLM training engine — custom tensor, autograd, 72 tests |
 | 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Python · Next.js · Rust FFI | 110,000+ | Autonomous multi-agent AI platform |
 
 </div>
@@ -156,10 +157,10 @@ tamper-proof enforcement
 ```
 Python Backend      95,300 LOC    66%    344 files · 72 modules
 Rust (Vitalis)      41,772 LOC    29%     58 files · 1,043 tests
-Rust (Nova)         12,119 LOC     5%     57 files · CUDA GPU
+Rust (Nova)         12,292 LOC     5%     57 files · 72 tests · CUDA GPU
 TypeScript Frontend 14,300 LOC          51 files · 25 routes
 ────────────────────────────────────────────────────────────────
-Total              163,000+ LOC          510 files · 4 languages
+Total              165,000+ LOC          510+ files · 4 languages
 ```
 
 ---
@@ -222,6 +223,64 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 ![Science](https://img.shields.io/badge/Science-Compression·NumericalMethods-1d3557?style=flat-square)
 
 > **41,772 LOC** · **58 modules** · **1,043 tests** · **200+ stdlib builtins** · **44 native hotpath ops** · **AOT + JIT** · **Zero LLVM dependency**
+
+---
+
+### ⚡ Nova — From-Scratch LLM Training Engine
+
+<a href="https://github.com/ModernOps888/nova">
+<img src="https://img.shields.io/badge/GitHub-ModernOps888/nova-f97316?style=for-the-badge&logo=github&logoColor=white" alt="Nova Repo" />
+</a>
+
+A **complete LLM training engine** built from scratch in Rust — no PyTorch, no TensorFlow, no dependencies on existing ML frameworks. Custom tensor library with autograd, cuBLAS GPU acceleration, BPE tokenizer, and a native GUI training monitor.
+
+```
+Data → BPE Tokenizer → DataLoader → Transformer (GPT) → AdamW → Checkpoint
+         ↕                              ↕                    ↕
+   8K vocab (trained)          cuBLAS SGEMM (GPU)     Cosine scheduler
+                                     ↕                    ↕
+                              Nova Studio GUI ←── JSON metrics IPC
+```
+
+<table>
+<tr>
+<td width="50%">
+
+**Training Engine**
+- **Tensor Library** — Custom storage, shapes, broadcasting, autograd computation graph
+- **GPU Acceleration** — cuBLAS SGEMM/batched GEMM via cudarc 0.19, fallback CPU
+- **Transformer** — Pre-Norm GPT: RMSNorm → GQA Attention (RoPE) → SwiGLU FFN
+- **Optimizer** — AdamW with bias correction, cosine LR schedule + linear warmup
+- **Training Loop** — Gradient accumulation, gradient clipping, checkpoint save/resume
+- **Tokenizer** — BPE from scratch with train/encode/decode, 8K vocab
+- **Data Pipeline** — Web fetching (9 sources, 14M+ chars), synthetic domain generation, binary token caching
+
+</td>
+<td width="50%">
+
+**Architecture & Tools**
+- **Nova Studio** — Native eframe/egui GUI with 8 panels: Dashboard, GPU Monitor, Model Config, Training, Generation, Data Pipeline, Evolution, Logs
+- **Parallelized Ops** — rayon `par_iter` on matmul (tiled), softmax, log_softmax, transpose, sum_dim
+- **Model Configs** — nova-tiny (1.8M), nova-125m, nova-1b, nova-3b
+- **Checkpoint System** — Auto-resume from latest, periodic saves every 50 steps, best-model tracking, emergency save before RAM offload
+- **Metrics IPC** — JSON file bridge between CLI trainer and Studio GUI
+- **Allocator** — mimalloc for both binaries
+- **4 config profiles** — TOML-based, serde serializable
+
+</td>
+</tr>
+</table>
+
+**Core Components:**
+
+![Tensor](https://img.shields.io/badge/Tensor-Custom_Storage·Autograd·Broadcasting-f97316?style=flat-square)
+![CUDA](https://img.shields.io/badge/CUDA-cuBLAS_SGEMM·Batched_GEMM-76b900?style=flat-square)
+![Transformer](https://img.shields.io/badge/Transformer-RMSNorm·GQA·RoPE·SwiGLU-3b82f6?style=flat-square)
+![Training](https://img.shields.io/badge/Training-AdamW·Cosine_LR·Grad_Clip-ef4444?style=flat-square)
+![Studio](https://img.shields.io/badge/Studio-eframe·egui·8_Panels·GPU_Monitor-8b5cf6?style=flat-square)
+![Tokenizer](https://img.shields.io/badge/Tokenizer-BPE·8K_Vocab·Train_From_Scratch-14b8a6?style=flat-square)
+
+> **12,292 LOC** · **57 files** · **72 tests** · **cuBLAS GPU** · **Native GUI** · **Auto-resume checkpoints** · **Zero PyTorch dependency**
 
 ---
 
@@ -361,8 +420,8 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 
 ### 🎯 Current Focus
 
-- 🧬 Expanding Vitalis with AOT compilation, cross-compilation (ARM64, RISC-V), effect system, and lifetime analysis
-- ⚡ Training Nova LLM from scratch in Rust with custom tensor engine and CUDA acceleration
+- ⚡ Training Nova LLM from scratch — loss 8.8 and dropping, custom CUDA tensor engine, auto-resume checkpoints
+- 🧬 Vitalis v22 complete — AOT compilation, cross-compilation (ARM64, RISC-V), effect system, lifetime analysis, hot reload, bootstrap pipeline
 - 🤖 Building autonomous multi-agent swarm systems with Pareto-optimal consensus
 - 🏗 Architecting production AI pipelines with self-evolution capabilities
 - 🔐 M365 administration, Entra ID, and zero-trust security architecture
@@ -428,6 +487,6 @@ Sentinel — full stack hardening
 
 *Building systems that build themselves.*
 
-**163,000+ LOC · 510 Files · 4 Languages · 72 AI Modules · 1,043 Compiler Tests**
+**165,000+ LOC · 510+ Files · 4 Languages · 72 AI Modules · 1,043 Compiler Tests · 72 LLM Tests**
 
 </div>
