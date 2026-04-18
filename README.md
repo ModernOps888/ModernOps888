@@ -4,8 +4,10 @@
 
 ### AI Systems Architect · Language Designer · Full-Stack Engineer
 
+[![The Forge](https://img.shields.io/badge/The_Forge-Multi_Agent_Swarm-ff6b00?style=for-the-badge&logo=python&logoColor=white)](https://github.com/ModernOps888/the-forge)
 [![Vitalis](https://img.shields.io/badge/Vitalis_Lang-Self_Evolving-a855f7?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/vitalis)
 [![Nova LLM](https://img.shields.io/badge/Nova_LLM-From_Scratch-f97316?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/nova)
+[![Free Tools](https://img.shields.io/badge/10+_Free-Dev_Tools-00f0ff?style=for-the-badge&logo=nextdotjs&logoColor=black)](https://infinitytechstack.uk)
 [![Consulting](https://img.shields.io/badge/Book_Consulting-22c55e?style=for-the-badge&logo=calendar&logoColor=white)](https://infinitytechstack.uk/consulting)
 
 </div>
@@ -14,7 +16,7 @@
 
 ### 🧬 What I Build
 
-I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Three flagship products, **165,000+ lines of code**, four languages, zero shortcuts.
+I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Four flagship products, a fully open-source ecosystem, **10+ free developer tools**, **165,000+ lines of code**, four languages, zero shortcuts.
 
 <div align="center">
 
@@ -23,6 +25,8 @@ I design and build **autonomous AI systems** that evolve their own code — from
 | 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT + AOT | 41,772 | Custom self-evolving compiled language — 58 modules, 1,043 tests |
 | ⚡ | **[Nova](https://github.com/ModernOps888/nova)** | Rust · CUDA · cuBLAS | 12,292 | From-scratch LLM training engine — custom tensor, autograd, 72 tests |
 | 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Python · Next.js · Rust FFI | 110,000+ | Autonomous multi-agent AI platform |
+| ⬡ | **[The Forge](https://github.com/ModernOps888/the-forge)** | Python · FastAPI | - | Open-source multi-agent swarm platform |
+| 🛠️ | **[Developer Ecosystem](https://infinitytechstack.uk)** | Next.js · React | - | 10+ free developer tools, academies & ecosystem extensions |
 
 </div>
 
