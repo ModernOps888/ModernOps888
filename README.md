@@ -284,6 +284,43 @@ Data → BPE Tokenizer → DataLoader → Transformer (GPT) → AdamW → Checkp
 
 ---
 
+### 🛠️ Free Developer Tools & Ecosystem ([infinitytechstack.uk](https://infinitytechstack.uk))
+
+A suite of 10+ production-grade developer tools, interactive academies, and platform extensions — completely free, no sign-up required.
+
+<table>
+<tr>
+<td width="50%">
+  
+**Developer Tools**
+- ⬡ **[The Forge](https://github.com/ModernOps888/the-forge)** — Open-source multi-agent swarm platform
+- ⬡ **[Forge SEO](https://infinitytechstack.uk/forge-seo)** — Meta tags & SERP snippet generator
+- ◈ **[ResumeForge](https://infinitytechstack.uk/resume-builder)** — AI-powered developer resume builder
+- ⎔ **[SchemaForge](https://infinitytechstack.uk/schema-generator)** — JSON-LD structured data generator
+- ⬢ **[PromptForge](https://infinitytechstack.uk/prompt-playground)** — AI prompt builder & scoring engine
+- △ **[JSONForge](https://infinitytechstack.uk/json-formatter)** — JSON formatter, validator, and diff tool
+- ◇ **[ColorForge](https://infinitytechstack.uk/color-palette)** — UI color palette & contrast generator
+- ◈ **[ReadmeForge](https://infinitytechstack.uk/readme-generator)** — GitHub README.md profile generator
+- ◇ **[CostForge](https://infinitytechstack.uk/api-calculator)** — LLM API cost comparison calculator
+- ⬢ **[Freedom OS](https://infinitytechstack.uk/freedom)** — Bare-metal x86_64 OS kernel in Rust
+
+</td>
+<td width="50%">
+
+**Learning Academies & Resources**
+- 🎓 **[Claude Academy](https://infinitytechstack.uk/claude-academy)** — Master Claude AI (13 lessons, XP system)
+- ⚙️ **[MCP Academy](https://infinitytechstack.uk/mcp)** — Master the Model Context Protocol
+- 🤖 **[Agents Academy](https://infinitytechstack.uk/agents-academy)** — Build AI agents & orchestration
+- ⚡ **[Power Academy](https://infinitytechstack.uk/power-platform)** — Microsoft Power Platform mastery
+- 🛠️ **[Claude Toolkit](https://infinitytechstack.uk/claude-toolkit)** — Copy-paste configs for IDEs
+- 🌐 **[MCPlex Gateway](https://github.com/ModernOps888/mcplex)** — Open-source MCP Gateway in Rust
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🛠 Tech Stack
 
 <table>
