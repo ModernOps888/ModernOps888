@@ -16,16 +16,16 @@
 
 ### 🧬 What I Build
 
-I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Four flagship products, a fully open-source ecosystem, **10+ free developer tools**, **165,000+ lines of code**, four languages, zero shortcuts.
+I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Four flagship products, a fully open-source ecosystem, **10+ free developer tools**, **650,000+ lines of code**, four languages, zero shortcuts.
 
 <div align="center">
 
 | | Project | Stack | LOC | Description |
 |---|---------|-------|-----|-------------|
-| 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT + AOT | 41,772 | Custom self-evolving compiled language — 58 modules, 1,043 tests |
-| ⚡ | **[Nova](https://github.com/ModernOps888/nova)** | Rust · CUDA · cuBLAS | 12,292 | From-scratch LLM training engine — custom tensor, autograd, 72 tests |
-| 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Python · Next.js · Rust FFI | 110,000+ | Autonomous multi-agent AI platform |
-| ⬡ | **[The Forge](https://github.com/ModernOps888/the-forge)** | Python · FastAPI | - | Open-source multi-agent swarm platform |
+| 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT + AOT | 194,317 | Custom self-evolving compiled language — 58 modules, 1,043 tests |
+| ⚡ | **[Nova](https://github.com/ModernOps888/nova)** | Rust · CUDA · cuBLAS | 17,352 | From-scratch LLM training engine — custom tensor, autograd, 72 tests |
+| 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Python · Next.js · Rust FFI | 306,333 | Autonomous multi-agent AI platform |
+| ⬡ | **[The Forge](https://github.com/ModernOps888/the-forge)** | Python · FastAPI | 20,556 | Open-source multi-agent swarm platform |
 | 🛠️ | **[Developer Ecosystem](https://infinitytechstack.uk)** | Next.js · React | - | 10+ free developer tools, academies & ecosystem extensions |
 
 </div>
@@ -159,12 +159,13 @@ tamper-proof enforcement
 #### Tech Breakdown
 
 ```
-Python Backend      95,300 LOC    66%    344 files · 72 modules
-Rust (Vitalis)      41,772 LOC    29%     58 files · 1,043 tests
-Rust (Nova)         12,292 LOC     5%     57 files · 72 tests · CUDA GPU
-TypeScript Frontend 14,300 LOC          51 files · 25 routes
+Infinity Platform  306,333 LOC    46%      664 files · 72 modules
+Vitalis (v60)      194,317 LOC    29%      458 files · 1,043 tests
+Axiom              120,149 LOC    18%      183 files
+The Forge           20,556 LOC     4%       47 files · Open-source
+Nova (Void)         17,352 LOC     3%       62 files · CUDA GPU
 ────────────────────────────────────────────────────────────────
-Total              165,000+ LOC          510+ files · 4 languages
+Total              658,707 LOC           1,414 files · 4 languages
 ```
 
 ---
@@ -226,7 +227,7 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 ![Analytics](https://img.shields.io/badge/Analytics-Elo·ZScore·CodeQuality-386641?style=flat-square)
 ![Science](https://img.shields.io/badge/Science-Compression·NumericalMethods-1d3557?style=flat-square)
 
-> **41,772 LOC** · **58 modules** · **1,043 tests** · **200+ stdlib builtins** · **44 native hotpath ops** · **AOT + JIT** · **Zero LLVM dependency**
+> **194,317 LOC** · **58 modules** · **1,043 tests** · **200+ stdlib builtins** · **44 native hotpath ops** · **AOT + JIT** · **Zero LLVM dependency**
 
 ---
 
@@ -284,7 +285,7 @@ Data → BPE Tokenizer → DataLoader → Transformer (GPT) → AdamW → Checkp
 ![Studio](https://img.shields.io/badge/Studio-eframe·egui·8_Panels·GPU_Monitor-8b5cf6?style=flat-square)
 ![Tokenizer](https://img.shields.io/badge/Tokenizer-BPE·8K_Vocab·Train_From_Scratch-14b8a6?style=flat-square)
 
-> **12,292 LOC** · **57 files** · **72 tests** · **cuBLAS GPU** · **Native GUI** · **Auto-resume checkpoints** · **Zero PyTorch dependency**
+> **17,352 LOC** · **62 files** · **72 tests** · **cuBLAS GPU** · **Native GUI** · **Auto-resume checkpoints** · **Zero PyTorch dependency**
 
 ---
 
@@ -528,6 +529,6 @@ Sentinel — full stack hardening
 
 *Building systems that build themselves.*
 
-**165,000+ LOC · 510+ Files · 4 Languages · 72 AI Modules · 1,043 Compiler Tests · 72 LLM Tests**
+**650,000+ LOC · 1,400+ Files · 4 Languages · 72 AI Modules · 1,043 Compiler Tests · 72 LLM Tests**
 
 </div>
