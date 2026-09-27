@@ -16,17 +16,22 @@
 
 ### 🧬 What I Build
 
-I design and build **autonomous AI systems** that evolve their own code — from compiler to kernel to LLM training engine to swarm intelligence to frontend. Four flagship products, a fully open-source ecosystem, **10+ free developer tools**, **650,000+ lines of code**, four languages, zero shortcuts.
+I design and build **autonomous AI systems, developer tooling, compiler backends, and multi-agent platforms** that push the boundaries of software engineering. **650,000+ lines of production code** across Rust, TypeScript, Python, and C++.
 
 <div align="center">
 
-| | Project | Stack | LOC | Description |
-|---|---------|-------|-----|-------------|
-| 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Rust · Cranelift JIT + AOT | 194,317 | Custom self-evolving compiled language — 58 modules, 1,043 tests |
-| ⚡ | **[Nova](https://github.com/ModernOps888/nova)** | Rust · CUDA · cuBLAS | 17,352 | From-scratch LLM training engine — custom tensor, autograd, 72 tests |
-| 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Python · Next.js · Rust FFI | 306,333 | Autonomous multi-agent AI platform |
-| ⬡ | **[The Forge](https://github.com/ModernOps888/the-forge)** | Python · FastAPI | 20,556 | Open-source multi-agent swarm platform |
-| 🛠️ | **[Developer Ecosystem](https://infinitytechstack.uk)** | Next.js · React | - | 10+ free developer tools, academies & ecosystem extensions |
+| | Project | Category | Stack | Description |
+|---|---------|----------|-------|-------------|
+| ⚡ | **[MCPlex](https://github.com/ModernOps888/mcplex)** | Agent Infrastructure | Rust · Tokio · Axum | **The MCP Smart Gateway** — Semantic tool routing (70–90% token savings), RBAC guardrails, Prometheus metrics, and multi-model support |
+| 🔍 | **[AgentLens](https://github.com/ModernOps888/agentlens)** | Observability | TypeScript · React 19 · Next.js | **Chrome DevTools for AI Agents** — Time-travel debugging, real-time per-model token & cost tracking, anomaly detection, MCP-native |
+| 🔥 | **[The Forge](https://github.com/ModernOps888/the-forge)** | Code Evolution | Python · Vitalis JIT · Multi-LLM | **Multi-Agent Code Evolution** — 4 LLMs compete head-to-head in an arena, judged by a JIT compiler and bred across generations |
+| 🧠 | **[Gestalt Blueprint](https://github.com/ModernOps888/gestalt-blueprint)** | Cognitive Systems | Python · FastAPI · Multi-GPU | **Cognitive Architecture & Blueprint Engine** — Cross-platform multi-GPU hardware profiling, dynamic VRAM fit, local SLM |
+| 🏆 | **[Neuromantix ARC-AGI-3](https://github.com/ModernOps888/neuromantix-arc-agi-3)** | Neuro-Symbolic AI | Python · SMT · Z3 · AST | **88.0% Verified Win Rate (22/25 Games Won)** on ARC-AGI-3 with bit-exact deterministic replay |
+| 📊 | **[Neuromantix LiveBench](https://github.com/ModernOps888/neuromantix-livebench)** | AI Benchmarking | Python · Symbolic Engines | Official LiveBench submission: **97.0% Reasoning**, 100% Data Analysis, 81% Math |
+| 🦀 | **[Vitalis V1333](https://github.com/ModernOps888/vitalis)** | Compilers & Languages | Rust · Cranelift JIT + AOT | Custom self-evolving compiled language — 345 modules, 6,742 tests, native x86-64 execution |
+| ✨ | **[Humaniser](https://github.com/ModernOps888/humaniser)** | Privacy & NLP | Vanilla JS · Web APIs | Zero-dependency AI writing humaniser with multi-provider Deep Rewrite (OpenAI, Gemini, Claude, DeepSeek) |
+| 📈 | **[Infinity Signal](https://github.com/ModernOps888/infinity-signal)** | Quant Systems | Next.js · TypeScript | Professional-grade multi-indicator trading dashboard (15 indicators, 33 instruments, 4 timeframes) |
+| 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Autonomous Swarms | Python · Next.js · Rust FFI | Sovereign autonomous multi-agent self-evolving platform |
 
 </div>
 
