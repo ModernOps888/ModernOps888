@@ -2,21 +2,22 @@
 
 # Hey, I'm ModernOps888 👋
 
-### AI Systems Architect · Language Designer · Full-Stack Engineer
+### AI Systems Architect · Language Designer · Open-Source Engineer
 
 [![The Forge](https://img.shields.io/badge/The_Forge-Multi_Agent_Swarm-ff6b00?style=for-the-badge&logo=python&logoColor=white)](https://github.com/ModernOps888/the-forge)
 [![Vitalis](https://img.shields.io/badge/Vitalis_Lang-Self_Evolving-a855f7?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/vitalis)
-[![Nova LLM](https://img.shields.io/badge/Nova_LLM-From_Scratch-f97316?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/nova)
-[![Free Tools](https://img.shields.io/badge/10+_Free-Dev_Tools-00f0ff?style=for-the-badge&logo=nextdotjs&logoColor=black)](https://infinitytechstack.uk)
+[![MCPlex](https://img.shields.io/badge/MCPlex-Smart_MCP_Gateway-00f0ff?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/ModernOps888/mcplex)
+[![AgentLens](https://img.shields.io/badge/AgentLens-DevTools_for_Agents-10b981?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/ModernOps888/agentlens)
+[![Free Tools](https://img.shields.io/badge/10+_Free-Dev_Tools-a78bfa?style=for-the-badge&logo=nextdotjs&logoColor=black)](https://infinitytechstack.uk)
 [![Consulting](https://img.shields.io/badge/Book_Consulting-22c55e?style=for-the-badge&logo=calendar&logoColor=white)](https://infinitytechstack.uk/consulting)
 
 </div>
 
 ---
 
-### 🧬 What I Build
+### 🧬 What I Build (Open Source)
 
-I design and build **autonomous AI systems, developer tooling, compiler backends, and multi-agent platforms** that push the boundaries of software engineering. **650,000+ lines of production code** across Rust, TypeScript, Python, and C++.
+I design and build **autonomous AI systems, developer tooling, compiler backends, and multi-agent platforms** that push the boundaries of software engineering. High-performance production code across **Rust, TypeScript, Python, and C++**.
 
 <div align="center">
 
@@ -25,170 +26,161 @@ I design and build **autonomous AI systems, developer tooling, compiler backends
 | ⚡ | **[MCPlex](https://github.com/ModernOps888/mcplex)** | Agent Infrastructure | Rust · Tokio · Axum | **The MCP Smart Gateway** — Semantic tool routing (70–90% token savings), RBAC guardrails, Prometheus metrics, and multi-model support |
 | 🔍 | **[AgentLens](https://github.com/ModernOps888/agentlens)** | Observability | TypeScript · React 19 · Next.js | **Chrome DevTools for AI Agents** — Time-travel debugging, real-time per-model token & cost tracking, anomaly detection, MCP-native |
 | 🔥 | **[The Forge](https://github.com/ModernOps888/the-forge)** | Code Evolution | Python · Vitalis JIT · Multi-LLM | **Multi-Agent Code Evolution** — 4 LLMs compete head-to-head in an arena, judged by a JIT compiler and bred across generations |
+| 🦀 | **[Vitalis](https://github.com/ModernOps888/vitalis)** | Compilers & Languages | Rust · Cranelift JIT + AOT | Custom self-evolving compiled language — 345 modules, 6,742 tests, native x86-64, ARM64, and RISC-V execution |
 | 🧠 | **[Gestalt Blueprint](https://github.com/ModernOps888/gestalt-blueprint)** | Cognitive Systems | Python · FastAPI · Multi-GPU | **Cognitive Architecture & Blueprint Engine** — Cross-platform multi-GPU hardware profiling, dynamic VRAM fit, local SLM |
 | 🏆 | **[Neuromantix ARC-AGI-3](https://github.com/ModernOps888/neuromantix-arc-agi-3)** | Neuro-Symbolic AI | Python · SMT · Z3 · AST | **88.0% Verified Win Rate (22/25 Games Won)** on ARC-AGI-3 with bit-exact deterministic replay |
 | 📊 | **[Neuromantix LiveBench](https://github.com/ModernOps888/neuromantix-livebench)** | AI Benchmarking | Python · Symbolic Engines | Official LiveBench submission: **97.0% Reasoning**, 100% Data Analysis, 81% Math |
-| 🦀 | **[Vitalis V1333](https://github.com/ModernOps888/vitalis)** | Compilers & Languages | Rust · Cranelift JIT + AOT | Custom self-evolving compiled language — 345 modules, 6,742 tests, native x86-64 execution |
 | ✨ | **[Humaniser](https://github.com/ModernOps888/humaniser)** | Privacy & NLP | Vanilla JS · Web APIs | Zero-dependency AI writing humaniser with multi-provider Deep Rewrite (OpenAI, Gemini, Claude, DeepSeek) |
 | 📈 | **[Infinity Signal](https://github.com/ModernOps888/infinity-signal)** | Quant Systems | Next.js · TypeScript | Professional-grade multi-indicator trading dashboard (15 indicators, 33 instruments, 4 timeframes) |
-| 🤖 | **[Infinity](https://infinitytechstack.uk/techstack)** | Autonomous Swarms | Python · Next.js · Rust FFI | Sovereign autonomous multi-agent self-evolving platform |
+| 🛡️ | **[Infinity Security](https://github.com/ModernOps888/infinity-Security-stack)** | IAM & Zero-Trust | Rust · Axum · OIDC | Open-source, Rust-native replacements for SaaS — Infinity ID secure IAM (OIDC/OAuth2, MFA, RBAC) + edge gateway |
 
 </div>
 
-> *Full interactive breakdown → [infinitytechstack.uk/techstack](https://infinitytechstack.uk/techstack)*
-
 ---
 
-## 🏗 Flagship Software
+## 🏗 Flagship Open-Source Projects
 
-### ∞ Infinity — Autonomous Self-Evolving AI System
+### ⚡ [MCPlex](https://github.com/ModernOps888/mcplex) — The Model Context Protocol Smart Gateway
 
-A production-grade autonomous AI platform that **writes, tests, and evolves its own code** in continuous 3-minute cycles. Governed by Asimov's Three Laws, powered by a swarm of LLM agents, backed by a custom JIT-compiled language.
+<a href="https://github.com/ModernOps888/mcplex">
+<img src="https://img.shields.io/badge/GitHub-ModernOps888/mcplex-00f0ff?style=for-the-badge&logo=github&logoColor=black" alt="MCPlex Repo" />
+</a>
+
+A high-throughput, asynchronous gateway for the **Model Context Protocol (MCP)** written in Rust. MCPlex acts as an intelligent intermediary between autonomous AI agents and dozens of MCP tool servers.
 
 <table>
 <tr>
 <td align="center" width="25%">
 
-**🧠 72 AI Modules**
-Inference, reasoning, memory,
-swarm, voice, code analysis,
-consciousness substrate
+**🎯 Semantic Routing**
+Dynamic vector-based tool selection
+saving 70–90% in prompt token
+overhead per agent turn
 
 </td>
 <td align="center" width="25%">
 
-**🐝 4-Agent Swarm**
-Parallel consensus with
-Pareto-optimal selection,
-Boltzmann sampling, native
-vote tallying via Rust FFI
+**🔒 RBAC Guardrails**
+Fine-grained authorization,
+tool execution policies, and
+dangerous argument sanitization
 
 </td>
 <td align="center" width="25%">
 
-**🧬 Self-Evolution**
-LLM → Guardian → Type-Check
-→ Sandbox → Fitness → Git
-Autonomous code improvement
-every 3 minutes
+**📊 Observability**
+Prometheus metrics, latency
+histograms, and structured JSON
+audit logs for enterprise runs
 
 </td>
 <td align="center" width="25%">
 
-**🛡️ Asimov Enforced**
-Three Laws governance,
-capability-based sandbox,
-kernel sentinel (SHA-256),
-tamper-proof enforcement
+**⚡ Rust-Native Speed**
+Sub-millisecond routing overhead
+built on Tokio async runtime
+and Axum web framework
 
 </td>
 </tr>
 </table>
 
-#### System Architecture
-
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│  FRONTEND  │  Next.js 15 · React 19 · WebGL Shaders · Cyberpunk HUD   │
-│  :3002     │  25 routes · GPU-accelerated · SSE real-time streaming    │
-├─────────────────────────────────────────────────────────────────────────┤
-│  API       │  FastAPI · Uvicorn · REST + SSE · /health /status /chat   │
-│  :8002     │  /evolution /roadmap /api/agents · Structured JSON logs   │
-├─────────────────────────────────────────────────────────────────────────┤
-│  KERNEL    │  Boot · Guardian · Sandbox · Evolution · Watchdog · Forge │
-│            │  Hot-swap modules · Asimov enforced · Config (Pydantic)   │
-├─────────────────────────────────────────────────────────────────────────┤
-│  CORTEX    │  72 modules: inference, swarm (4x), reasoning, episodic  │
-│            │  memory, FAISS, ChromaDB, voice, code analysis, plugins  │
-├─────────────────────────────────────────────────────────────────────────┤
-│  VITALIS   │  Rust JIT engine · 405 FFI exports · SIMD F64×4 (AVX2)  │
-│  ENGINE    │  44 native hotpath ops · ctypes bridge · vitalis.dll     │
-└─────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│   AI Agent (Claude / GPT-4o / Gemini / Local SLM / Cursor)  │
+└──────────────────────────────┬──────────────────────────────┘
+                               │ MCP Request (JSON-RPC)
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│                 ⚡ MCPlex Smart Gateway                     │
+│  • Token Optimizer  • RBAC Guardrails  • Prometheus Monitor │
+└──────────────┬───────────────┼───────────────┬──────────────┘
+               ▼               ▼               ▼
+      [ Local Filesystem ]  [ PostgreSQL ]  [ GitHub / Slack ]
 ```
 
-#### Core Modules
+---
+
+### 🔍 [AgentLens](https://github.com/ModernOps888/agentlens) — Chrome DevTools for AI Agents
+
+<a href="https://github.com/ModernOps888/agentlens">
+<img src="https://img.shields.io/badge/GitHub-ModernOps888/agentlens-10b981?style=for-the-badge&logo=github&logoColor=white" alt="AgentLens Repo" />
+</a>
+
+An interactive developer cockpit and observability suite designed specifically for **agentic LLM architectures**. Inspect multi-turn agent execution loops, track per-model token expenditure in real time, and debug tool-calling incidents.
 
 <table>
 <tr>
 <td width="50%">
 
-**Kernel Layer** — *System Core*
-- `boot.py` — 2,200+ LOC orchestrator, loads 72 modules
-- `guardian.py` — Asimov's Laws pattern-based enforcement
-- `sandbox.py` — Capability-restricted jail (no FS/net/proc)
-- `evolution.py` — Git-based code evolution + Vitalis backend
-- `algorithm_forge.py` — Algorithm generation & fitness eval
-- `coevolution.py` — Python ↔ Vitalis runtime bridge
-- `kernel_sentinel.rs` — 957 LOC native tamper detection
+**Key Features**
+- **Time-Travel Debugging** — Step backwards and forwards through multi-agent turns
+- **Cost & Token Telemetry** — Real-time tracking across 60+ frontier AI models
+- **Tool-Call Inspection** — Full argument validation, return payload diffs, and error detection
+- **MCP-Native** — Direct integration with Model Context Protocol servers and clients
+- **Modern Stack** — Next.js 15, React 19, Tailwind CSS, TypeScript
 
 </td>
 <td width="50%">
 
-**Cortex AI** — *Intelligence Layer*
-- `inference_pkg/` — Unified LLM backend (vLLM, TGI, Ollama)
-- `swarm_pkg/` — 4-agent parallel consensus engine
-- `episodic/` — Time-stamped experience memory
-- `faiss_pkg/` — Vector similarity search + caching
-- `consciousness/` — Self-awareness substrate
-- `voice/` — Voice processing pipeline
-- `rate_limiter.py` — Sliding window + token bucket (Rust)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Memory & Persistence**
-- ChromaDB vector store for semantic retrieval
-- FAISS index for high-speed similarity search
-- Episodic memory for experience-based learning
-- Mind journal — 335 goals, persistent JSON state
-- Three-layer memory (working, short-term, long-term)
-
-</td>
-<td width="50%">
-
-**Evolution Engine**
-- Claude Sonnet 4.6 proposes code improvements
-- Guardian reviews for Three Laws compliance
-- Vitalis compiler validates type safety
-- Sandbox executes in capability-restricted jail
-- Fitness scoring via code quality metrics
-- Auto-rollback if fitness degrades
-- Git commit with generation tracking
+**Observability Panels**
+- 🕹️ **Live Turn Ledger** — Chronological feed of thoughts, tool calls, and results
+- 💰 **FinOps Monitor** — Input, cached input (90% discount), and output cost breakdown
+- 🚨 **Incident Watch** — Intercepted failures, infinite-loop detection, timeout alerts
+- 📦 **Payload Exporter** — Export sanitized session transcripts for automated test suites
 
 </td>
 </tr>
 </table>
 
-#### Tech Breakdown
+---
 
-```
-Infinity Platform  306,333 LOC    46%      664 files · 72 modules
-Vitalis (v60)      194,317 LOC    29%      458 files · 1,043 tests
-Axiom              120,149 LOC    18%      183 files
-The Forge           20,556 LOC     4%       47 files · Open-source
-Nova (Void)         17,352 LOC     3%       62 files · CUDA GPU
-────────────────────────────────────────────────────────────────
-Total              658,707 LOC           1,414 files · 4 languages
-```
+### 🔥 [The Forge](https://github.com/ModernOps888/the-forge) — Multi-Agent Code Evolution Arena
+
+<a href="https://github.com/ModernOps888/the-forge">
+<img src="https://img.shields.io/badge/GitHub-ModernOps888/the-forge-ff6b00?style=for-the-badge&logo=github&logoColor=white" alt="The Forge Repo" />
+</a>
+
+An open-source multi-agent code evolution platform where **4 distinct LLMs compete in an arena** to generate, optimize, and evolve algorithmic implementations. Solutions are judged by an automated JIT compiler test suite and bred across generations using genetic algorithms.
+
+<table>
+<tr>
+<td width="50%">
+
+**Evolutionary Workflow**
+1. **Arena Challenge** — An optimization target is dispatched to competing LLMs
+2. **JIT Execution Judge** — Compiles and benches each candidate against strict test suites
+3. **Fitness Scoring** — Measures runtime latency, memory footprint, and code conciseness
+4. **Genetic Breeding** — High-fitness ASTs are recombined and mutated for the next generation
+5. **Pareto Frontier** — Surfaces optimal speed-memory-readability trade-offs
+
+</td>
+<td width="50%">
+
+**Engine Highlights**
+- **Multi-LLM Support** — Anthropic Claude, OpenAI, Google Gemini, and local Ollama models
+- **Strict Sandboxing** — Capability-restricted execution jail preventing unsafe operations
+- **Algorithmic Benchmarking** — Sorting, string matching, graph traversal, and numerical solvers
+- **Interactive Terminal UI** — Live generational leaderboards and fitness curve visualizations
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🧬 Vitalis — The Self-Evolving Programming Language
+### 🧬 [Vitalis](https://github.com/ModernOps888/vitalis) — The Self-Evolving Programming Language
 
 <a href="https://github.com/ModernOps888/vitalis">
 <img src="https://img.shields.io/badge/GitHub-ModernOps888/vitalis-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="Vitalis Repo" />
 </a>
 
-A compiled language built from scratch in **Rust** that produces native machine code via **Cranelift JIT and AOT**. Programs can evolve themselves through genetic mutation, fitness scoring, and generational tracking. Cross-compiles to x86-64, AArch64 (ARM64), and RISC-V 64.
+A compiled programming language built from scratch in **Rust** that generates native machine code via **Cranelift JIT and AOT**. Features an integrated code evolution engine, static effect system, and lifetime analysis. Cross-compiles to x86-64, AArch64 (ARM64), and RISC-V 64.
 
 ```
-Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimize → Cranelift → Native x86-64 / AArch64 / RISC-V
-                                                                                     ↕            ↕
-                                                                          C FFI bridge    AOT standalone binary
+Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimize → Cranelift → Native Binary
                                                                                      ↕
-                                                                          Python interop (vitalis.py)
+                                                                          C FFI & Python Bridge
 ```
 
 <table>
@@ -200,97 +192,33 @@ Source (.sl) → Lexer → Parser → AST → Type Checker → SSA IR → Optimi
 - **Parser** — Recursive-descent + Pratt, typed AST with 27 nodes
 - **Type Checker** — Two-pass with scope chains, lifetime analysis
 - **IR** — SSA-form with ~30 instruction variants
-- **Optimizer** — Constant folding, DCE, strength reduction, predictive JIT, delta debugger, inlining oracle
-- **Codegen** — Cranelift 0.116 JIT + AOT → native x86-64, AArch64, RISC-V
+- **Optimizer** — Constant folding, DCE, strength reduction, predictive JIT
+- **Codegen** — Cranelift JIT + AOT → native x86-64, AArch64, RISC-V
 
 </td>
 <td width="50%">
 
 **Runtime Features**
-- **Evolution Engine** — `@evolvable` functions, fitness tracking, quantum UCB, Pareto fronts, auto-rollback
+- **Evolution Engine** — `@evolvable` functions, fitness tracking, auto-rollback
 - **SIMD** — AVX2 F64×4 vectorization (15 ops, ~4× throughput)
 - **Effect System** — Static capability types, algebraic effects
 - **Lifetime Analysis** — Region-based borrow scopes, outlives constraints
 - **Hot Reload** — File watching, incremental recompilation
-- **AOT + Cross-Compile** — Standalone executables for x86-64, ARM64, RISC-V
-- **Bootstrap Pipeline** — Stage 0/1/2 self-hosted compiler infrastructure
-- **Meta-Evolution** — Thompson sampling over strategies
-- **405 FFI exports** across 17 source files
+- **Zero LLVM Dependency** — Fast compilation and minimal footprint
 
 </td>
 </tr>
 </table>
-
-**14 Native Algorithm Libraries** — all compiled Rust, exposed via FFI:
-
-![String](https://img.shields.io/badge/String-Levenshtein·Jaro_Winkler·Hamming-2d6a4f?style=flat-square)
-![Graph](https://img.shields.io/badge/Graph-PageRank·Toposort·DFS-264653?style=flat-square)
-![Crypto](https://img.shields.io/badge/Crypto-SHA256·HMAC·SQLi·XSS-9b2226?style=flat-square)
-![Signal](https://img.shields.io/badge/Signal-FFT·SMA·EMA·SIMD-003049?style=flat-square)
-![ML](https://img.shields.io/badge/ML-Softmax·CrossEntropy·Sigmoid·ReLU-7209b7?style=flat-square)
-![Quantum](https://img.shields.io/badge/Quantum-Annealing·UCB·CMA_ES-3a0ca3?style=flat-square)
-![Analytics](https://img.shields.io/badge/Analytics-Elo·ZScore·CodeQuality-386641?style=flat-square)
-![Science](https://img.shields.io/badge/Science-Compression·NumericalMethods-1d3557?style=flat-square)
-
-> **194,317 LOC** · **58 modules** · **1,043 tests** · **200+ stdlib builtins** · **44 native hotpath ops** · **AOT + JIT** · **Zero LLVM dependency**
 
 ---
 
-### ⚡ Nova — From-Scratch LLM Training Engine
+### 🧠 [Gestalt Blueprint](https://github.com/ModernOps888/gestalt-blueprint) — Cognitive Architecture Engine
 
-<a href="https://github.com/ModernOps888/nova">
-<img src="https://img.shields.io/badge/GitHub-ModernOps888/nova-f97316?style=for-the-badge&logo=github&logoColor=white" alt="Nova Repo" />
+<a href="https://github.com/ModernOps888/gestalt-blueprint">
+<img src="https://img.shields.io/badge/GitHub-ModernOps888/gestalt-blueprint-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="Gestalt Blueprint Repo" />
 </a>
 
-A **complete LLM training engine** built from scratch in Rust — no PyTorch, no TensorFlow, no dependencies on existing ML frameworks. Custom tensor library with autograd, cuBLAS GPU acceleration, BPE tokenizer, and a native GUI training monitor.
-
-```
-Data → BPE Tokenizer → DataLoader → Transformer (GPT) → AdamW → Checkpoint
-         ↕                              ↕                    ↕
-   8K vocab (trained)          cuBLAS SGEMM (GPU)     Cosine scheduler
-                                     ↕                    ↕
-                              Nova Studio GUI ←── JSON metrics IPC
-```
-
-<table>
-<tr>
-<td width="50%">
-
-**Training Engine**
-- **Tensor Library** — Custom storage, shapes, broadcasting, autograd computation graph
-- **GPU Acceleration** — cuBLAS SGEMM/batched GEMM via cudarc 0.19, fallback CPU
-- **Transformer** — Pre-Norm GPT: RMSNorm → GQA Attention (RoPE) → SwiGLU FFN
-- **Optimizer** — AdamW with bias correction, cosine LR schedule + linear warmup
-- **Training Loop** — Gradient accumulation, gradient clipping, checkpoint save/resume
-- **Tokenizer** — BPE from scratch with train/encode/decode, 8K vocab
-- **Data Pipeline** — Web fetching (9 sources, 14M+ chars), synthetic domain generation, binary token caching
-
-</td>
-<td width="50%">
-
-**Architecture & Tools**
-- **Nova Studio** — Native eframe/egui GUI with 8 panels: Dashboard, GPU Monitor, Model Config, Training, Generation, Data Pipeline, Evolution, Logs
-- **Parallelized Ops** — rayon `par_iter` on matmul (tiled), softmax, log_softmax, transpose, sum_dim
-- **Model Configs** — nova-tiny (1.8M), nova-125m, nova-1b, nova-3b
-- **Checkpoint System** — Auto-resume from latest, periodic saves every 50 steps, best-model tracking, emergency save before RAM offload
-- **Metrics IPC** — JSON file bridge between CLI trainer and Studio GUI
-- **Allocator** — mimalloc for both binaries
-- **4 config profiles** — TOML-based, serde serializable
-
-</td>
-</tr>
-</table>
-
-**Core Components:**
-
-![Tensor](https://img.shields.io/badge/Tensor-Custom_Storage·Autograd·Broadcasting-f97316?style=flat-square)
-![CUDA](https://img.shields.io/badge/CUDA-cuBLAS_SGEMM·Batched_GEMM-76b900?style=flat-square)
-![Transformer](https://img.shields.io/badge/Transformer-RMSNorm·GQA·RoPE·SwiGLU-3b82f6?style=flat-square)
-![Training](https://img.shields.io/badge/Training-AdamW·Cosine_LR·Grad_Clip-ef4444?style=flat-square)
-![Studio](https://img.shields.io/badge/Studio-eframe·egui·8_Panels·GPU_Monitor-8b5cf6?style=flat-square)
-![Tokenizer](https://img.shields.io/badge/Tokenizer-BPE·8K_Vocab·Train_From_Scratch-14b8a6?style=flat-square)
-
-> **17,352 LOC** · **62 files** · **72 tests** · **cuBLAS GPU** · **Native GUI** · **Auto-resume checkpoints** · **Zero PyTorch dependency**
+Cross-platform multi-GPU hardware profiling, factual VRAM model fitting, and local small-language-model (SLM) synthesis. Dynamically allocates cognitive tasks across available compute tiers (discrete GPUs, Apple Silicon Unified Memory, and CPU fallbacks).
 
 ---
 
@@ -302,28 +230,30 @@ A suite of 10+ production-grade developer tools, interactive academies, and plat
 <tr>
 <td width="50%">
   
-**Developer Tools**
-- ⬡ **[The Forge](https://github.com/ModernOps888/the-forge)** — Open-source multi-agent swarm platform
+**Free Developer Tools**
+- ⬢ **[Prompt Studio](https://infinitytechstack.uk/prompt-playground)** — 60-model prompt engineering sandbox, simulator & MCP builder
 - ⬡ **[Forge SEO](https://infinitytechstack.uk/forge-seo)** — Meta tags & SERP snippet generator
-- ◈ **[ResumeForge](https://infinitytechstack.uk/resume-builder)** — AI-powered developer resume builder
+- ◈ **[ResumeForge](https://infinitytechstack.uk/resume-builder)** — AI-powered developer resume builder with role tailoring
 - ⎔ **[SchemaForge](https://infinitytechstack.uk/schema-generator)** — JSON-LD structured data generator
-- ⬢ **[PromptForge](https://infinitytechstack.uk/prompt-playground)** — AI prompt builder & scoring engine
 - △ **[JSONForge](https://infinitytechstack.uk/json-formatter)** — JSON formatter, validator, and diff tool
 - ◇ **[ColorForge](https://infinitytechstack.uk/color-palette)** — UI color palette & contrast generator
 - ◈ **[ReadmeForge](https://infinitytechstack.uk/readme-generator)** — GitHub README.md profile generator
 - ◇ **[CostForge](https://infinitytechstack.uk/api-calculator)** — LLM API cost comparison calculator
-- ⬢ **[Freedom OS](https://infinitytechstack.uk/freedom)** — Bare-metal x86_64 OS kernel in Rust
+- ⬡ **[PropValuer](https://infinitytechstack.uk/propvaluer)** — Property valuation & rental yield calculation engine
+- ✨ **[Humaniser](https://infinitytechstack.uk/humaniser)** — Zero-dependency text humanisation tool
 
 </td>
 <td width="50%">
 
-**Learning Academies & Resources**
-- 🎓 **[Claude Academy](https://infinitytechstack.uk/claude-academy)** — Master Claude AI (13 lessons, XP system)
-- ⚙️ **[MCP Academy](https://infinitytechstack.uk/mcp)** — Master the Model Context Protocol
-- 🤖 **[Agents Academy](https://infinitytechstack.uk/agents-academy)** — Build AI agents & orchestration
-- ⚡ **[Power Academy](https://infinitytechstack.uk/power-platform)** — Microsoft Power Platform mastery
+**Interactive Academies & Resources**
+- 🎓 **[Claude Academy](https://infinitytechstack.uk/claude-academy)** — Master Anthropic prompting, tool use & extended thinking
+- ⚙️ **[MCP Academy](https://infinitytechstack.uk/mcp)** — Master the Model Context Protocol architecture & servers
+- 🤖 **[Agents Academy](https://infinitytechstack.uk/agents-academy)** — Build autonomous multi-agent orchestration
+- ⚡ **[OpenAI Academy](https://infinitytechstack.uk/openai-academy)** — Master OpenAI o3/o1 reasoning & function calling
+- 💻 **[Cursor Academy](https://infinitytechstack.uk/cursor-academy)** — Master Composer agent mode, rules & tab autocomplete
+- 🦀 **[Rust Academy](https://infinitytechstack.uk/rust-academy)** — Systems engineering, memory layout & async programming
+- 🛡️ **[EU AI Act Hub](https://infinitytechstack.uk/eu-ai-act)** — Regulatory compliance & scope checker
 - 🛠️ **[Claude Toolkit](https://infinitytechstack.uk/claude-toolkit)** — Copy-paste configs for IDEs
-- 🌐 **[MCPlex Gateway](https://github.com/ModernOps888/mcplex)** — Open-source MCP Gateway in Rust
 
 </td>
 </tr>
@@ -368,14 +298,12 @@ A suite of 10+ production-grade developer tools, interactive academies, and plat
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </td>
 <td align="center">
@@ -383,14 +311,13 @@ A suite of 10+ production-grade developer tools, interactive academies, and plat
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-00f0ff?style=flat-square&logo=anthropic&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000?style=flat-square&logo=ollama&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=flat-square&logo=robot&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor_AI-000?style=flat-square&logo=cursor&logoColor=white)
-![Copilot](https://img.shields.io/badge/GitHub_Copilot-000?style=flat-square&logo=githubcopilot&logoColor=white)
 
 </td>
 <td align="center">
@@ -435,45 +362,13 @@ A suite of 10+ production-grade developer tools, interactive academies, and plat
 
 ---
 
-### 🔬 Frameworks & Tools
-
-<p align="center">
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
-![Cranelift](https://img.shields.io/badge/Cranelift_0.116-b7410e?style=flat-square&logo=rust&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square&logo=chroma&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elastic&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
-
-</p>
-
----
-
 ### 🎯 Current Focus
 
-- ⚡ Training Nova LLM from scratch — loss 8.8 and dropping, custom CUDA tensor engine, auto-resume checkpoints
-- 🧬 Vitalis v22 complete — AOT compilation, cross-compilation (ARM64, RISC-V), effect system, lifetime analysis, hot reload, bootstrap pipeline
-- 🤖 Building autonomous multi-agent swarm systems with Pareto-optimal consensus
-- 🏗 Architecting production AI pipelines with self-evolution capabilities
-- 🔐 M365 administration, Entra ID, and zero-trust security architecture
-- 🌐 Deploying AI-powered dashboards and real-time monitoring systems
-- 🎯 Self-hosted compiler bootstrap and cross-platform native binary generation
+- ⚡ Expanding **MCPlex** smart gateway with dynamic semantic routing and vector tool-indexing
+- 🔍 Advancing **AgentLens** for deep inspection and real-time cost tracking of autonomous multi-agent runtimes
+- 🧬 **Vitalis** compiler cross-compilation (x86_64, AArch64, RISC-V) and self-hosted bootstrap pipeline
+- 🤖 Scaling multi-agent code evolution and Pareto consensus in **The Forge**
+- 🛡️ Open-source zero-trust security architectures, IAM, and AI agent guardrails
 
 ---
 
@@ -534,6 +429,6 @@ Sentinel — full stack hardening
 
 *Building systems that build themselves.*
 
-**650,000+ LOC · 1,400+ Files · 4 Languages · 72 AI Modules · 1,043 Compiler Tests · 72 LLM Tests**
+**100% Open-Source Focus · Rust · Python · TypeScript · C++ · Model Context Protocol (MCP)**
 
 </div>
